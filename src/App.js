@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Repos from '../src/Data/test_data.js';
-import './App.css';
 import Pagination from './components/Pagination';
 import RepositoryCard from './components/RepositoryCard';
+import './App.css';
 
 class App extends Component {
   state = { allRepositories: Repos, currentRepositories: [], currentPage: null, totalPages: null }
